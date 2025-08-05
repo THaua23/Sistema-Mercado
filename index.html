@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sistema de mercado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao Sistema de Mercado</h1>
+    </header>
+    <main>
+        <div class="caixa-calculadora">
+            <h2>Calculadora</h2>
+            <input type="text" id="nome-produto" placeholder="nome do produto" required>
+            <input type="number" id="valor-produto" placeholder="Valor do produto" required>
+            <input type="number" id="quantidade-produto" placeholder="Quantidade do produto" required>
+            
+            <button id="btn-adicionar" onclick="adicionarProduto()">Adicionar</button>
+        </div>
+        
+        <div class="caixa-notinha">
+            <div class="titulo-notinha">
+                <h2>Notinha</h2>
+                <input type="number" id="valor-pago" placeholder="Valor pago" required>
+                <button class="limpar-notinha" onclick="limparNotinha()">X</button>
+            </div>
+            <div class="notinha">
+
+                <ul id="lista-produtos">
+                    <!-- intens seram adicionados aqui -->
+                </ul>
+
+            </div>
+            <div class="total-troco">
+                <h3>Total: R$ <span id="total">0.00</span></h3>
+                <h3>troco: R$ <span id="troco">0.00</span></h3>
+            </div>
+
+        </div>
+
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
