@@ -12,6 +12,7 @@ header{
     text-align: center;
 }
 main{
+    background: #fff;
     padding: 20px 100px 20px 100px;
     max-width: 1400px;
     display: flex;
@@ -130,4 +131,5 @@ main{
         width: 80%;
 
     }
+
 }
