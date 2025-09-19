@@ -5,7 +5,7 @@
     padding: 0px;
 }
 body{
-    background-color: #fff;
+    background-color: white;
 }
 header{
     background-color: #183c6b;
@@ -14,6 +14,7 @@ header{
     text-align: center;
 }
 main{
+    background-color: white;
     padding: 20px 100px 20px 100px;
     max-width: 1400px;
     display: flex;
@@ -134,4 +135,5 @@ main{
     }
 
 }
+
 
